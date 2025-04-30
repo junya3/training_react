@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
-import Header from "@components/Header";
+import Header from "@/components/commons/Header";
 // フォントの読み取り
 // import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
+import "@assets/css/reset.css";
+import "@assets/css/style.css";
 
 // fontの定義を参考にしみよう↓↓
 
