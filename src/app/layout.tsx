@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Header from "@components/Header";
 // フォントの読み取り
 // import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
@@ -31,6 +32,7 @@ export default function RootLayout({
         {children}
       </body> */}
       <body>
+        <Header />
         {children}
       </body>
     </html>
