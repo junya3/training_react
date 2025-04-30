@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  // 静的なサイトを構築する場合は下記の記述をし、OUTディレクトリをデプロイする
   output: "export",
 };
 
