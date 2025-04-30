@@ -1,5 +1,16 @@
 @charset "utf-8";
 
 :root {
-  --bg: #ccc;
+  --bg-primary: #ccc;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
 }
