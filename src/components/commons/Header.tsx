@@ -16,7 +16,6 @@ export default function Header({ title }: { title: string }) {
           </ul>
         </nav>
       </header>
-      
     </>
   );
 }

@@ -28,7 +28,9 @@ export default function RootLayout({
     <html lang="ja" className={mPlus1.className}>
       <body>
         <Header title={title} />
-        {children}
+        <main>
+          {children}
+        </main>
       </body>
     </html>
   );
