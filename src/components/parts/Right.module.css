@@ -1,0 +1,12 @@
+.right{
+  p{
+    font-size: var(--font-sm);
+    color:var(--text-color-300);
+  }
+  p + p{
+    margin-top: var(--gap-16px);
+  }
+  a{
+    margin-top: var(--gap-16px);
+  }
+}
