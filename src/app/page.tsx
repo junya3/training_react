@@ -1,5 +1,6 @@
-import Concept from "@/components/topSec/Concept";
-import Keyvisual from "@components/topSec/Keyvisual";
+import Concept from "@/components/section/Concept";
+import Keyvisual from "@/components/section/Keyvisual";
+import Point from "@/components/section/Point";
 
 export default function Home() {
   return (
@@ -7,6 +8,7 @@ export default function Home() {
       <Keyvisual/>
       <div className="container">
        <Concept/>
+       <Point/>
       </div>
     </>
   );

@@ -8,7 +8,7 @@ const Right = ({title, subTitle, text, href, btnText}:{title:string,subTitle:str
     <div className={styles.right}>
       <SecTitle title={title} subTitle={subTitle}/>
       {text.map((innerText:string) => (
-        <p>{innerText}</p>
+        <p key={innerText}>{innerText}</p>
       ))}
       <Button href={href}>{btnText}</Button>
     </div>

@@ -10,6 +10,8 @@
   --text-color-200: #64503b;
   --text-color-300: #7d6548;
 
+  /* 追加borderは95%とtext-black */
+
   --text-white: #ffffff;
   --text-black: #232323;
 
