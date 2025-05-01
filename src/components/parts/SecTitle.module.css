@@ -1,0 +1,14 @@
+.secTitle{
+  margin-bottom: var(--gap-24px);
+  h2{
+    font-size: var(--font-xl);
+    font-weight: 500;
+    margin-bottom:var(--gap-8px);
+    color:var(--text-color-200);
+  }
+  p{
+    font-size: var(--font-sm);
+    font-weight: 400;
+    color:var(--text-color-300);
+  }
+}

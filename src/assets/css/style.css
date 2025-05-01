@@ -19,12 +19,12 @@
   --gap-14px: 0.875rem;
   --gap-8px: 0.5rem;
 
-  --font-xxl: 2.5rem;
-  --font-xl: 2.25rem;
-  --font-lg: 1.5rem;
-  --font-md: 1.25rem;
-  --font-sm: 1rem;
-  --font-xs: 0.875rem;
+  --font-xxl: 2.5rem; /* 40px */
+  --font-xl: 2.25rem; /* 36px */
+  --font-lg: 1.5rem; /* 24px */
+  --font-md: 1.25rem; /* 20px */
+  --font-sm: 1rem; /* 16px */
+  --font-xs: 0.875rem; /* 14px */
 
   --r-sm: 4px;
 }
@@ -43,10 +43,29 @@ body {
   line-height: 1.5;
 }
 
+.container{
+  width:min(100% - 7rem, 1280px);
+  margin-inline:auto;
+}
+section {
+  padding-block:80px 60px;
+}
+
 a {
   text-decoration: none;
   color: var(--text-color-100);
   letter-spacing: 0.04em;
+}
+
+.col-2{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  align-items: center;
+  gap:var(--gap-48px);
+  img{
+    width:100%;
+    height:auto;
+  }
 }
 
 
@@ -86,5 +105,20 @@ a {
   .btn-flex{
     display: flex;
     gap:var(--gap-8px)
+  }
+}
+
+/* concept */
+
+#concept {
+  p{
+    font-size: var(--font-sm);
+    color:var(--text-color-300);
+  }
+  p + p{
+    margin-top: var(--gap-16px);
+  }
+  a{
+    margin-top: var(--gap-16px);
   }
 }
