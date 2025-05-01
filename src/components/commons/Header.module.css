@@ -4,6 +4,10 @@
   display: flex;
   justify-content: space-between;
 
+  position: fixed;
+  top: 0;
+  left: 0;
+
   padding: 1.5rem 3.75rem;
   color: var(--text-color-100);
 
@@ -17,5 +21,10 @@
   }
   a {
     font-size: var(--font-sm);
+    text-transform: capitalize;
+
+    &:hover {
+      color: color-mix(in srgb, var(--text-color-100) 50%, #0000);
+    }
   }
 }

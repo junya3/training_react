@@ -1,23 +1,17 @@
 import type { Metadata } from "next";
 import Header from "@/components/commons/Header";
 // フォントの読み取り
-// import { Geist, Geist_Mono } from "next/font/google";
+import { M_PLUS_1 } from "next/font/google";
 import "@assets/css/reset.css";
 import "@assets/css/style.css";
 
 const title = "Bakery NIKORI";
 
-// fontの定義を参考にしみよう↓↓
-
-// const geistSans = Geist({
-//   variable: "--font-geist-sans",
-//   subsets: ["latin"],
-// });
-
-// const geistMono = Geist_Mono({
-//   variable: "--font-geist-mono",
-//   subsets: ["latin"],
-// });
+const mPlus1 = M_PLUS_1({
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"], // 使用したい太さを指定
+  subsets: ["latin"], // サブセット（必要なら "latin-ext" や "japanese" など）
+  display: "swap", // 推奨設定
+});
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -30,10 +24,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="ja">
-      {/* <body className={`${geistSans.variable} ${geistMono.variable}`}>
-        {children}
-      </body> */}
+    <html lang="ja" className={mPlus1.className}>
       <body>
         <Header title={title} />
         {children}
