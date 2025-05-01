@@ -1,6 +1,7 @@
 import Concept from "@/components/section/Concept";
 import Keyvisual from "@/components/section/Keyvisual";
 import Point from "@/components/section/Point";
+import BreadSec from "@/components/section/TopBread";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       <div className="container">
        <Concept/>
        <Point/>
+       <BreadSec />
       </div>
     </>
   );
