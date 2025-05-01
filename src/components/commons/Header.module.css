@@ -11,35 +11,25 @@
 
   padding: 1.5rem 3.75rem;
   color: var(--text-color-100);
-
-  transition: color .5s ease;
+  background: color-mix(in srgb, var(--bg-color-white)90%, #0000);
+  border-bottom: 1px solid var(--bg-color-white);
 
   h1 {
     font-size: var(--font-lg);
     font-weight: 500;
   }
+
   nav ul {
     display: flex;
     gap: var(--gap-16px);
   }
+
   a {
     font-size: var(--font-sm);
     text-transform: capitalize;
 
-    transition: color .5s ease;
-
     &:hover {
       color: color-mix(in srgb, var(--text-color-100) 50%, #0000);
-    }
-  }
-
-  &.whiteText {
-    color: var(--text-white);
-    a{
-      color: var(--text-white);
-      &:hover{
-        color: color-mix(in srgb, var(--text-white) 50%, #0000);
-      }
     }
   }
 }
