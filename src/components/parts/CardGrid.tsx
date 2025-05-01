@@ -36,8 +36,10 @@ const CardGrid = ({ items }: { items: BreadItem[] }) => {
             height={200}
           />
           <div className="item-text">
-            <p className="en">{item.en}</p>
-            <p className="ja">{item.ja}</p>
+            <div className="item-title">
+              <p className="en">{item.en}</p>
+              <p className="ja">{item.ja}</p>
+            </div>
             <p className="detail">{item.detail}</p>
           </div>
         </li>
