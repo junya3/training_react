@@ -7,9 +7,12 @@
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 9999;
 
   padding: 1.5rem 3.75rem;
   color: var(--text-color-100);
+
+  transition: color .5s ease;
 
   h1 {
     font-size: var(--font-lg);
@@ -23,8 +26,20 @@
     font-size: var(--font-sm);
     text-transform: capitalize;
 
+    transition: color .5s ease;
+
     &:hover {
       color: color-mix(in srgb, var(--text-color-100) 50%, #0000);
+    }
+  }
+
+  &.whiteText {
+    color: var(--text-white);
+    a{
+      color: var(--text-white);
+      &:hover{
+        color: color-mix(in srgb, var(--text-white) 50%, #0000);
+      }
     }
   }
 }

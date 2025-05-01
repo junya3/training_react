@@ -38,7 +38,7 @@ body {
   padding: 0;
   color: var(--text-black);
   letter-spacing: 0.04em;
-  min-height: 100vh;
+  min-height: 200vh;
 }
 
 a {
