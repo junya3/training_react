@@ -1,11 +1,11 @@
 import { navList } from "@data/navList";
 import styles from "./Header.module.css";
 
-export default function Header() {
+export default function Header({ title }: { title: string }) {
   return (
     <>
       <header className={styles.header}>
-        <h1>NIKORI</h1>
+        <h1>{title}</h1>
         <nav>
           <ul>
             {navList.map((item) => (

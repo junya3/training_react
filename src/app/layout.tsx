@@ -5,6 +5,8 @@ import Header from "@/components/commons/Header";
 import "@assets/css/reset.css";
 import "@assets/css/style.css";
 
+const title = "Bakery NIKORI";
+
 // fontの定義を参考にしみよう↓↓
 
 // const geistSans = Geist({
@@ -33,7 +35,7 @@ export default function RootLayout({
         {children}
       </body> */}
       <body>
-        <Header />
+        <Header title={title} />
         {children}
       </body>
     </html>

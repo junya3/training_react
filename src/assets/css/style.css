@@ -21,7 +21,7 @@
 
   --font-xxl: 2.5rem;
   --font-xl: 2.25rem;
-  --font-lg: 2rem;
+  --font-lg: 1.5rem;
   --font-md: 1.25rem;
   --font-sm: 1rem;
   --font-xs: 0.875rem;
@@ -37,4 +37,11 @@ body {
   margin: 0;
   padding: 0;
   color: var(--text-black);
+  letter-spacing: 0.04em;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color-100);
+  letter-spacing: 0.04em;
 }
