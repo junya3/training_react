@@ -53,14 +53,11 @@ a {
 /* keyvisual */
 #keyvisual {
   width: 100%;
-  height: 100dvh;
+  height: 90dvh;
   overflow: hidden;
   img{
     width:100%;
     height:100%;
-    position:absolute;
-    margin:auto;
-    inset:0;
 
     object-fit: cover;
   }
