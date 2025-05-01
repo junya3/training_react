@@ -1,3 +1,9 @@
 .header {
-  background: var(--bg);
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+
+  padding: 1rem 2rem;
+  background: var(--bg-primary);
 }
