@@ -4,7 +4,7 @@ import data from "@data/topCafeData";
 const content = data.content;
 const image = data.image
 
-const TopC = () => {
+const TopCafe = () => {
   return (
     <>
       <Col2 content={content} image={image} dark/>
@@ -12,4 +12,4 @@ const TopC = () => {
   )
 }
 
-export default TopC;
+export default TopCafe;
