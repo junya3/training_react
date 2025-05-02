@@ -2,7 +2,7 @@ import Concept from "@/components/section/Concept";
 import Keyvisual from "@/components/section/Keyvisual";
 import Point from "@/components/section/Point";
 import BreadSec from "@/components/section/TopBread";
-import TopCafe from "@/components/section/TopCafe";
+import TopCafe from "@/components/section/TopC";
 
 export default function Home() {
   return (
