@@ -1,5 +1,6 @@
 import CenterTitle from "@components/parts/CenterTitle";
 import CardGrid from "@components/parts/CardGrid";
+import Button from "@components/commons/Button";
 import styles from "./BreadSec.module.css";
 
 type BreadItem = {
@@ -18,6 +19,7 @@ const BreadSec = (
       <section className={styles.BreadSec}>
         <CenterTitle title={title} subTitle={subTitle}/>
         <CardGrid items={items}/>
+        <Button href="/menu/" center>メニューをもっと見る</Button>
       </section>
     </>
   )

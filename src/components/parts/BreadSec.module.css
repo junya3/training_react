@@ -1,3 +1,5 @@
 .BreadSec{
-  
+  ul + a {
+    margin-top:var(--gap-36px);
+  }
 }

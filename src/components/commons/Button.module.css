@@ -1,6 +1,8 @@
 .btn {
+  width: fit-content;
+  height: fit-content;
   background:var(--bg-color-100);
-  display: inline-block;
+  display: block;
   padding: 0.5rem 1.25rem;
   border-radius: var(--r-sm);
   border:1px solid;
@@ -22,5 +24,9 @@
     &:focus{
       background: color-mix(in srgb, var(--bg-color-white) 25%, #0000) ;
     }
+  }
+
+  &.center{
+    margin-inline:auto;
   }
 }

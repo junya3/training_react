@@ -35,12 +35,12 @@ const CardGrid = ({ items }: { items: BreadItem[] }) => {
             width={300}
             height={200}
           />
-          <div className="item-text">
-            <div className="item-title">
-              <p className="en">{item.en}</p>
-              <p className="ja">{item.ja}</p>
+          <div className={styles.itemText}>
+            <div className={styles.itemTitle}>
+              <p className={styles.en}>{item.en}</p>
+              <p className={styles.ja}>{item.ja}</p>
             </div>
-            <p className="detail">{item.detail}</p>
+            <p className={styles.detail}>{item.detail}</p>
           </div>
         </li>
       ))}
