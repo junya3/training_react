@@ -70,6 +70,11 @@ a {
     width:100%;
     height:auto;
   }
+  &.dark {
+    background: var(--bg-color-200);
+    box-shadow: 0 0 0 100vmax var(--bg-color-200);
+    clip-path: inset(0 -100vmax);
+  }
 }
 
 

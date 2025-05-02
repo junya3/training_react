@@ -9,4 +9,10 @@
   a{
     margin-top: var(--gap-16px);
   }
+  &.dark{
+    h2,
+    p{
+      color: var(--text-white);
+    }
+  }
 }
