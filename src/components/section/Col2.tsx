@@ -10,9 +10,13 @@ type DataContent = {
   href: string,
   btnText: string,
 }
+type DataImage = {
+  src: string,
+  alt: string
+}
 
 
-const Col2 = ({dark ,content} : {dark?:boolean, content: DataContent}) => {
+const Col2 = ({content, image, dark} : {content: DataContent, image:DataImage, dark?:boolean}) => {
   const mode = dark ? `${styles.col2} ${styles.dark}` : styles.col2;
   return (
     <>
