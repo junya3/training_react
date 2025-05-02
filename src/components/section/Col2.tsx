@@ -16,7 +16,7 @@ type DataImage = {
 }
 
 
-const Col2 = ({content, image, dark} : {content: DataContent, image:DataImage, dark?:boolean}) => {
+const Col2 = ({content, dark} : {content: DataContent, image?:DataImage, dark?:boolean}) => {
   const mode = dark ? `${styles.col2} ${styles.dark}` : styles.col2;
   return (
     <>

@@ -1,9 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: "export", // 静的サイト生成
-  distDir: "out",   // 出力先ディレクトリを「out」に変更
+  output: "export",
+  distDir: "out",
+  basePath: "/training_react", // ←追加
   images: {
-    unoptimized: true, // next/imageを無効化
+    unoptimized: true,
   },
 };
 

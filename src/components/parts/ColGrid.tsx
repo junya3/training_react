@@ -1,3 +1,4 @@
+import Image from "next/image";
 import styles from "./ColGrid.module.css";
 
 type Item = {
@@ -22,7 +23,7 @@ const Grid3 = ({ items }: { items: Item[] }) => {
           style={{gridRow:`span ${colCount}`}}
           >
           {/* アイコンがあるならここに表示（画像でもOK） */}
-          {item.icon && <img src={item.icon} alt="" />}
+          {item.icon && <Image src={item.icon} alt="" />}
           <h3>{item.name}</h3>
           <p>{item.text}</p>
         </li>
