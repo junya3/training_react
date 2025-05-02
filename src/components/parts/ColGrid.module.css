@@ -1,0 +1,27 @@
+.grid {
+  display: grid;
+  gap:var(--gap-16px);
+
+  li{
+    width:auto;
+    height: auto;
+    display: grid;
+    grid-template-rows:subgrid;
+    gap:var(--gap-8px);
+    padding:var(--gap-24px);
+    background:var(--bg-color-white);
+    border-radius: var(--r-sm);
+    border:1px solid color-mix(in srgb, var(--bg-color-300) 95%, var(--text-black));
+
+    h3{
+      font-size: var(--font-md);
+      font-weight: 500;
+      color:var(--text-color-200);
+    }
+    p{
+      font-size: var(--font-xs);
+      font-weight: 400;
+      color:var(--text-color-300);
+    }
+  }
+}

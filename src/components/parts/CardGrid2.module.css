@@ -1,0 +1,27 @@
+.CardGrid2 {
+    width:min(100% - 7rem,800px);
+    margin-inline:auto;
+    display: grid;
+    gap:var(--gap-24px);
+
+    li {
+        display: grid;
+        gap: var(--gap-8px);
+        
+        background: var(--bg-color-white);
+        border:1px solid;
+        border-color: var(--text-color-300);
+        border-radius: var(--r-md);
+        padding: var(--gap-16px);
+
+        p{
+            font-size: var(--font-xs);
+            color: var(--text-color-300);
+        }
+        h3{
+            font-size: var(--font-mm);
+            font-weight: 500;
+            color:var(--text-color-200)
+        }
+    }
+}

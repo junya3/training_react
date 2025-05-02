@@ -1,0 +1,119 @@
+@charset "utf-8";
+
+:root {
+  --bg-color-100: #7d6548;
+  --bg-color-200: #4b3c2d;
+  --bg-color-300: #f8f7f4;
+  --bg-color-white: #ffffff;
+
+  --text-color-100: #4b3c2d;
+  --text-color-200: #64503b;
+  --text-color-300: #7d6548;
+
+  /* 追加borderは95%とtext-black */
+
+  --text-white: #ffffff;
+  --text-black: #232323;
+
+  --gap-48px: 3rem;
+  --gap-36px : 2.25rem;
+  --gap-24px: 1.5rem;
+  --gap-16px: 1rem;
+  --gap-14px: 0.875rem;
+  --gap-8px: 0.5rem;
+
+  --font-xxl: 2.5rem; /* 40px */
+  --font-xl: 2.25rem; /* 36px */
+  --font-lg: 1.5rem; /* 24px */
+  --font-md: 1.25rem; /* 20px */
+  --font-sm: 1rem; /* 16px */
+  --font-xs: 0.875rem; /* 14px */
+  --font-xxs: 0.75rem; /* 12px */
+
+  --r-sm: 4px;
+  --r-md: 8px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: var(--text-black);
+  letter-spacing: 0.04em;
+  line-height: 1.5;
+}
+
+.container{
+  width:min(100% - 7rem, 1280px);
+  margin-inline:auto;
+}
+section {
+  padding-block:80px 60px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color-100);
+  letter-spacing: 0.04em;
+}
+
+.col-2{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  align-items: center;
+  gap:var(--gap-48px);
+  img{
+    width:100%;
+    height:auto;
+  }
+  &.dark {
+    background: var(--bg-color-200);
+    box-shadow: 0 0 0 100vmax var(--bg-color-200);
+    clip-path: inset(0 -100vmax);
+  }
+}
+
+
+/* keyvisual */
+#keyvisual {
+  width: 100%;
+  height: 90dvh;
+  overflow: hidden;
+  img{
+    width:100%;
+    height:100%;
+
+    object-fit: cover;
+  }
+
+  .k_inner{
+    position:absolute;
+    z-index: 1;
+    padding:0 3.75rem;
+    top:40%;
+    left: 0;
+    translate:0 -50%;
+  }
+
+  hgroup {
+    color: var(--text-white);
+    margin-bottom:var(--gap-16px);
+    h1{
+      font-size: var(--font-xxl);
+      font-weight: 500;
+    }
+    p{
+      font-size: var(--font-sm);
+      font-weight: 400;
+    }
+  }
+  .btn-flex{
+    display: flex;
+    gap:var(--gap-8px)
+  }
+}
