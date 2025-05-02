@@ -1,4 +1,5 @@
 import Header from "@components/commons/Header";
+import Footer from "@components/commons/Footer";
 // フォントの読み取り
 import { M_PLUS_1 } from "next/font/google";
 
@@ -19,6 +20,7 @@ const Layout = ({children}: {children: React.ReactNode}) => {
                 <main>
                     {children}
                 </main>
+                <Footer/>
             </body>
             
         </>

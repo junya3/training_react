@@ -7,15 +7,15 @@ const shopData = {
         ],
     },
     business: {
-        time :  {
-            mon: "8:00 - 19:00",
-            tue: "8:00 - 19:00",
-            wed: "8:00 - 19:00",
-            thu: "8:00 - 19:00",
-            fri: "8:00 - 19:00",
-            sat: "7:30 - 18:00",
-            sun: "7:30 - 18:00"
-          },
+        time: [
+            { day: "Mo", label: "月曜", time: "08:00-19:00" },
+            { day: "Tu", label: "火曜", time: "08:00-19:00" },
+            { day: "We", label: "水曜", time: "08:00-19:00" },
+            { day: "Th", label: "木曜", time: "08:00-19:00" },
+            { day: "Fr", label: "金曜", time: "08:00-19:00" },
+            { day: "Sa", label: "土曜", time: "07:30-18:00" },
+            { day: "Su", label: "日曜", time: "07:30-18:00" },
+          ],          
         tel: "03-1234-5678",
         mail: "info@example.com",
     },
@@ -24,3 +24,5 @@ const shopData = {
         direction: "表参道駅 A2出口から徒歩5分",
     }
 }
+
+export default shopData;
