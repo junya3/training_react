@@ -1,17 +1,10 @@
-import type { NextConfig } from "next";
-const withOptimizedImages = require('next-optimized-images');
-
-const nextConfig: NextConfig = {
-  // 静的なサイトを構築する場合は下記の記述をし、OUTディレクトリをデプロイする
-  output: "export",
-};
-module.exports = withOptimizedImages({
-  // 画像最適化の設定
-  optimizeImagesInDev: true,
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  output: "export", // 静的サイト生成
+  distDir: "out",   // 出力先ディレクトリを「out」に変更
   images: {
-    disableStaticImages: true,
+    unoptimized: true, // next/imageを無効化
   },
-});
+};
 
-export default nextConfig;
-
+module.exports = nextConfig;
