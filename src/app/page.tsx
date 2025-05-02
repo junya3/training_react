@@ -11,10 +11,10 @@ export default function Home() {
       <Keyvisual/>
       <div className="container">
        <Concept/>
-       {/* <Point/>
+       <Point/>
        <BreadSec />
        <TopCafe />
-       <News/> */}
+       <News/>
       </div>
     </>
   );

@@ -10,7 +10,7 @@ const CardGrid2 = ({content}: {content:Content[]}) => {
         <>
             <ul className={styles.CardGrid2}>
                 {content.map((item) => (
-                    <li>
+                    <li key={item.title}>
                         <p><time>{item.date}</time></p>
                         <h3>{item.title}</h3>
                         <p>{item.content}</p>
