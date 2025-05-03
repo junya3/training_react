@@ -7,12 +7,13 @@ type Item = {
   text: string;
 };
 
-const Grid3 = ({ items }: { items: Item[] }) => {
+const Grid3 = ({ items, center }: { items: Item[], center?:boolean }) => {
   // ここでitemの個数を数えます。
   const colCount = items.length;
+  const Mode = center ? `${styles.grid} ${styles.center}` : styles.grid;
   return (
     <ul 
-      className={styles.grid} 
+      className={Mode} 
       style={{ 
         gridTemplateColumns: `repeat(${colCount}, 1fr)`,
       }}
