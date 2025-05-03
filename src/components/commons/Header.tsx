@@ -1,5 +1,6 @@
 import { navList } from "@data/navList";
 import styles from "./Header.module.css";
+import Link from "next/link";
 
 export default function Header({ title }: { title: string }) {
   return (
@@ -10,7 +11,7 @@ export default function Header({ title }: { title: string }) {
           <ul>
             {navList.map((item) => (
               <li key={item.label}>
-                <a href={item.href}>{item.label}</a>
+                <Link href={item.href}>{item.label}</Link>
               </li>
             ))}
           </ul>

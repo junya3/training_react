@@ -8,8 +8,8 @@
       height:auto;
     }
     &.dark {
-      background: var(--bg-color-200);
-      box-shadow: 0 0 0 100vmax var(--bg-color-200);
+      background: var(--bg-color-100);
+      box-shadow: 0 0 0 100vmax var(--bg-color-100);
       clip-path: inset(0 -100vmax);
     }
   }

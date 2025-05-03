@@ -1,0 +1,48 @@
+.Footer {
+    width: 100%;
+    height: auto;
+    background: var(--bg-color-100);
+    color:var(--text-white);
+
+    .FooterInner{
+        width:min(100% - 7rem, 1280px);
+        margin-inline:auto;
+        padding-block: 60px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+
+        .title{
+            font-size: var(--font-md);
+            font-weight: 500;
+            margin-bottom: var(--gap-24px);
+            a{
+                color:var(--text-white);
+                transition:color .2s;
+                &:hover{
+                    color:color-mix(in srgb, var(--text-white) 50%, #0000);
+                }
+            }
+        }
+
+        hgroup{
+            p{
+                font-size: var(--font-xs);
+                display: grid;
+            }
+        }
+        ul {
+            li{
+                font-size: var(--font-xs);
+            }
+        }
+        address {
+            font-size: var(--font-xs);
+        }
+    }
+    small {
+        display: block;
+        text-align: center;
+        padding-block:var(--gap-24px);
+        border-top: 1px solid var(--text-color-200);
+    }
+}
