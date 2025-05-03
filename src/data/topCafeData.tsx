@@ -9,7 +9,7 @@ const data = {
     btnText : "カフェについて詳しく"
   },
   image : {
-    src: "@assets/images/topPage/top02.png",
+    src: "/images/topPage/top02.png",
     alt: "焼き立てのパンの写真が写っています。"
   }
 }
