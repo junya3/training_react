@@ -3,9 +3,18 @@
     grid-template-columns: repeat(2,1fr);
     align-items: center;
     gap:var(--gap-48px);
+
     img{
       width:100%;
       height:auto;
+    }
+    &.reverse {
+      img{
+        order:1;
+      }
+      div{
+        order:2;
+      }
     }
     &.dark {
       background: var(--bg-color-100);

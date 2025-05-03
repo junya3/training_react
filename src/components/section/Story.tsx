@@ -9,6 +9,7 @@ const Story = () => {
       <Col2 
         content={content}
         image={image}
+        reverse
       />
     </>
   )
