@@ -1,14 +1,13 @@
 import Right from "@/components/parts/Right";
 import Image from "next/image";
-import itemImage from "@assets/images/topPage/top02.png";
 import styles from "./Col2.module.css";
 
 type DataContent = {
   title: string
   subTitle: string
   text: string[],
-  href: string,
-  btnText: string,
+  href?: string,
+  btnText?: string,
 }
 type DataImage = {
   src: string,
@@ -16,7 +15,7 @@ type DataImage = {
 }
 
 
-const Col2 = ({content, dark} : {content: DataContent, image?:DataImage, dark?:boolean}) => {
+const Col2 = ({content,image, dark} : {content: DataContent, image:DataImage, dark?:boolean}) => {
   const mode = dark ? `${styles.col2} ${styles.dark}` : styles.col2;
   return (
     <>
@@ -30,7 +29,7 @@ const Col2 = ({content, dark} : {content: DataContent, image?:DataImage, dark?:b
             dark={dark}
           >
           </Right>
-          <Image src={itemImage} alt="焼き立てのパンの写真が写っています。"></Image>
+          <Image src={image.src} alt="焼き立てのパンの写真が写っています。" width={616} height={467}></Image>
       </section>
     </>
   )
