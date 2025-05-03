@@ -5,6 +5,7 @@ import "@assets/css/style.css";
 import PageTitle from "@/components/commons/PageTitle";
 import Story from "@components/section/Story";
 import OurValue from "@components/section/OurValue";
+import OwnerMessage from "@/components/section/OwnerMessage";
 
 const pageTitle = "当店について";
 const pageSubTitle = "素材とまごころで、毎日に小さなごほうびを。";
@@ -21,6 +22,7 @@ export default function Home() {
             <div className="container">
               <Story />
               <OurValue />
+              <OwnerMessage />
             </div>
         </Layout>
     </>

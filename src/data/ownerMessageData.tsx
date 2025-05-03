@@ -8,7 +8,9 @@ const messageData = {
     owner: "オーナーパティシエ 山田 綾子",
   },
   image: {
-    src: "/image/aboutPage/about02.png",
+    src: "/images/aboutPage/about02.png",
     alt: "これからも、心を込めたパン作りを続けていきます。とコメントをしているオーナーさん",
   }
 }
+
+export default messageData;

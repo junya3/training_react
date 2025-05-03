@@ -8,6 +8,7 @@ type DataContent = {
   text: string[],
   href?: string,
   btnText?: string,
+  owner?: string,
 }
 type DataImage = {
   src: string,
@@ -27,6 +28,7 @@ const Col2 = ({content,image, dark, reverse} : {content: DataContent, image:Data
             text={content.text}
             href={content.href} 
             btnText={content.btnText}
+            owner={content.owner}
             dark={dark}
           >
           </Right>

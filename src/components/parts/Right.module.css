@@ -15,4 +15,14 @@
       color: var(--text-white);
     }
   }
+  &.owner {
+    hgroup + p{
+      padding-left:var(--gap-16px);
+      border-left: 4px solid var(--text-color-300);
+
+      & + p {
+        text-align: right;
+      }
+    }
+  }
 }
