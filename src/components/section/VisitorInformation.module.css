@@ -1,0 +1,26 @@
+.section{
+  background:var(--bg-color-200);
+  box-shadow: 0 0 0 100vmax var(--bg-color-200);
+  clip-path: inset(0 -100vmax);
+  text-align: center;
+  color:var(--text-white);
+
+  .title {
+    font-size: var(--font-lg);
+    font-weight: 500;
+    margin-bottom: var(--gap-24px);
+  }
+  .btns {
+    width: fit-content;
+    display: grid;
+    grid-template-columns: repeat(2,200px);
+    gap: var(--gap-8px);
+
+    margin-inline:auto;
+    margin-top:var(--gap-24px);
+
+    a{
+      width:auto;
+    }
+  }
+}

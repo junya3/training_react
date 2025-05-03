@@ -1,0 +1,22 @@
+.PageTitle {
+  width:100%;
+  height:50dvh;
+  background: var(--bg-color-300);
+  color: var(--text-color-200);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap:var(--gap-16px);
+
+  h1 {
+    font-size: var(--font-xxl);
+    font-weight: 500;
+  }
+  p {
+    font-size: var(--font-sm);
+    font-weight: 400;
+    color: var(--text-color-300);
+  }
+}

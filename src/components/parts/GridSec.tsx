@@ -9,16 +9,17 @@ type Item = {
   text: string;
 };
 
-const GridSec = ({title, subTitle,items}:{
+const GridSec = ({title, subTitle,items,center}:{
   title: string,
   subTitle: string,
-  items: Item[]
+  items: Item[],
+  center?: boolean
 }) => {
   return (
     <>
     <section className={styles.GridSec}>
         <CenterTitle title={title} subTitle={subTitle}/>
-        <Grid3 items={items}></Grid3>
+        <Grid3 items={items} center={center}></Grid3>
     </section>
     </>
   )
