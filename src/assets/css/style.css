@@ -60,6 +60,7 @@ a {
   text-decoration: none;
   color: var(--text-color-100);
   letter-spacing: 0.04em;
+  transition:color .2s;
 }
 
 .col-2{
