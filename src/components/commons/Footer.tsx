@@ -1,3 +1,4 @@
+import Link from "next/link";
 import styles from "./Footer.module.css";
 import shopData from "@data/shopData";
 const shop = shopData.shop;
@@ -11,9 +12,9 @@ const Footer = () => {
                 <div className={styles.FooterInner}>
                     <hgroup>
                         <h1 className={styles.title}>
-                            <a href="/">
+                            <Link href="/">
                                 {shop.name}
-                            </a>
+                            </Link>
                         </h1>
                         <p>
                             {shop.concept.map((span, index) => (

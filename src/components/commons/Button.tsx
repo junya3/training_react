@@ -1,3 +1,4 @@
+import Link from "next/link";
 import styles from "./Button.module.css";
 
 const Button = ( { children, href, solid, center }:{children: React.ReactNode,href:string,solid? :boolean, center?:boolean}) => {
@@ -7,9 +8,9 @@ const Button = ( { children, href, solid, center }:{children: React.ReactNode,hr
   const outClass = centerClass;
   return (
     <>
-      <a className={outClass} href={href}>
+      <Link className={outClass} href={href}>
         {children}
-      </a>
+      </Link>
     </>
   )
 }

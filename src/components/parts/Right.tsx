@@ -11,7 +11,8 @@ const Right = ({title, subTitle, text, href, btnText, dark}:{title:string,subTit
       {text.map((innerText:string) => (
         <p key={innerText}>{innerText}</p>
       ))}
-      <Button href={href}>{btnText}</Button>
+      {/* darkモードだったらsolid */}
+      <Button href={href} solid={ dark ? true : false }>{btnText}</Button>
     </div>
     </>
   )

@@ -1,7 +1,7 @@
 .Footer {
     width: 100%;
     height: auto;
-    background: var(--bg-color-200);
+    background: var(--bg-color-100);
     color:var(--text-white);
 
     .FooterInner{
@@ -43,6 +43,6 @@
         display: block;
         text-align: center;
         padding-block:var(--gap-24px);
-        border-top: 1px solid var(--bg-color-100);
+        border-top: 1px solid var(--text-color-200);
     }
 }
