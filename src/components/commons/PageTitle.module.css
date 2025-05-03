@@ -17,5 +17,6 @@
   p {
     font-size: var(--font-sm);
     font-weight: 400;
+    color: var(--text-color-300);
   }
 }

@@ -19,7 +19,7 @@ const GridSec = ({title, subTitle,items,center}:{
     <>
     <section className={styles.GridSec}>
         <CenterTitle title={title} subTitle={subTitle}/>
-        <Grid3 items={items} center></Grid3>
+        <Grid3 items={items} center={center}></Grid3>
     </section>
     </>
   )
