@@ -5,6 +5,7 @@ import "@assets/css/style.css";
 import PageTitle from "@/components/commons/PageTitle";
 import MenuBread from "@/components/section/MenuBread";
 import MenuInfo from "@/components/section/MenuInfo";
+import DrinkMenu from "@/components/parts/DrinkMenu";
 
 const pageTitle = "メニュー";
 const pageSubTitle = "BAKERY NICORIのパン";
@@ -21,6 +22,7 @@ export default function Home() {
             <div className="container">
               <MenuBread />
               <MenuInfo/>
+              <DrinkMenu />
             </div>
         </Layout>
     </>
