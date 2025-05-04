@@ -1,6 +1,6 @@
 .CardGrid {
   display: grid;
-  grid-template-columns:repeat(auto-fill,minmax(350px,auto));
+  grid-template-columns:repeat(auto-fill,minmax(304px,auto));
   gap:var(--gap-24px);
 
   li{
