@@ -1,0 +1,15 @@
+.grid {
+  width: 100%;
+  margin-inline:auto;
+
+  column-count:3;
+
+  gap:var(--gap-16px);
+
+  img{
+    width: 100%;
+    display: block;
+    margin-bottom: var(--gap-16px);
+    border-radius: var(--r-sm);
+  }
+}
