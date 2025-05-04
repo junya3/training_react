@@ -4,6 +4,7 @@ import "@assets/css/style.css";
 
 import PageTitle from "@/components/commons/PageTitle";
 import SpaceTop from "@/components/section/SpaceTop";
+import CafePoint from "@/components/section/cafePoint";
 
 const pageTitle = "カフェスペース";
 const pageSubTitle = "パンとコーヒーで、心がほどける時間を。";
@@ -19,6 +20,7 @@ export default function Home() {
             />
             <div className="container">
               <SpaceTop />
+              <CafePoint/>
             </div>
         </Layout>
     </>
