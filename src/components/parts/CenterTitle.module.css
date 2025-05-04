@@ -12,4 +12,10 @@
     font-weight: 400;
     color: var(--text-color-300);
   }
+
+  &.white{
+    h2,p{
+      color: var(--text-white);
+    }
+  }
 }

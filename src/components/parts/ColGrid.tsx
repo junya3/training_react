@@ -11,6 +11,7 @@ const Grid3 = ({ items, center }: { items: Item[], center?:boolean }) => {
   // ここでitemの個数を数えます。
   const colCount = items.length;
   const Mode = center ? `${styles.grid} ${styles.center}` : styles.grid;
+  const span = items[1].icon ? 4 : 3;
   return (
     <ul 
       className={Mode} 
@@ -21,7 +22,7 @@ const Grid3 = ({ items, center }: { items: Item[], center?:boolean }) => {
       {items.map((item, index) => (
         <li
           key={index}
-          style={{gridRow:`span ${colCount}`}}
+          style={{gridRow:`span ${span}`}}
           >
           {/* アイコンがあるならここに表示（画像でもOK） */}
           {item.icon && <Image src={item.icon} alt="" />}
