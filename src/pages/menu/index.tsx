@@ -4,6 +4,7 @@ import "@assets/css/style.css";
 
 import PageTitle from "@/components/commons/PageTitle";
 import MenuBread from "@/components/section/MenuBread";
+import MenuInfo from "@/components/section/MenuInfo";
 
 const pageTitle = "メニュー";
 const pageSubTitle = "BAKERY NICORIのパン";
@@ -19,6 +20,7 @@ export default function Home() {
             />
             <div className="container">
               <MenuBread />
+              <MenuInfo/>
             </div>
         </Layout>
     </>
