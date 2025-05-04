@@ -12,14 +12,14 @@ type BreadItem = {
 };
 
 const BreadSec = (
-  {title,subTitle,items}
-  :{title:string,subTitle:string,items:BreadItem[]}) => {
+  {title,subTitle,items,button}
+  :{title:string,subTitle:string,items:BreadItem[], button?:boolean}) => {
   return (
     <>
       <section className={styles.BreadSec}>
         <CenterTitle title={title} subTitle={subTitle}/>
         <CardGrid items={items}/>
-        <Button href="/menu/" center>メニューをもっと見る</Button>
+        {button && <Button href="/menu/" center>メニューをもっと見る</Button>}
       </section>
     </>
   )

@@ -1,5 +1,5 @@
-import BreadSec from "@/components/parts/BreadSec";
-import breadsItems from "@data/breadsList";
+import BreadSec from "../parts/BreadSec";
+import breadsItems from "@/data/breadsList";
 
 type BreadItem = {
   en: string;
@@ -9,21 +9,21 @@ type BreadItem = {
   detail: string;
 };
 
+
 const title = "人気のパン";
 const subTitle = "BAKERY NICORIのおすすめ";
-const items: BreadItem[] = breadsItems.slice(0, 3);
+const items: BreadItem[] = breadsItems;
 
-const TopBread = () => {
+const MenuBread = () =>{
   return (
     <>
       <BreadSec
         title={title}
         subTitle={subTitle}
         items={items}
-        button
       />
     </>
   )
 }
 
-export default TopBread;
+export default MenuBread;
