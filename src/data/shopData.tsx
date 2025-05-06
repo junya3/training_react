@@ -15,7 +15,7 @@ const shopData = {
         mail: "info@example.com",
     },
     access : {
-        address: "〒150-0001 東京都渋谷区神宮前X-X-X",
+        address: ["〒150-0001", "東京都渋谷区神宮前X-X-X"],
         direction: "表参道駅 A2出口から徒歩5分",
     }
 }
