@@ -42,10 +42,10 @@ const Footer = () => {
                         <address>
                             {
                                 access.address.map((item, index) => (
-                                    <p key={index}>{item}</p>
+                                    <div key={index}>{item}</div>
                                 ))
                             }
-                            <p>{access.direction}</p>
+                            {access.direction}
                         </address>
                     </div>
                 </div>
