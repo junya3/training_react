@@ -4,8 +4,8 @@ import "@assets/css/style.css";
 
 import PageTitle from "@/components/commons/PageTitle";
 import Shop from "@components/section/Shop";
-const pageTitle = "カフェスペース";
-const pageSubTitle = "パンとコーヒーで、心がほどける時間を。";
+const pageTitle = "アクセス";
+const pageSubTitle = "お気軽にお越しください";
 
 
 export default function Home() {
