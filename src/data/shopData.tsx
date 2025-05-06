@@ -17,7 +17,11 @@ const shopData = {
     access : {
         address: ["〒150-0001", "東京都渋谷区神宮前X-X-X"],
         direction: "表参道駅 A2出口から徒歩5分",
-    }
+    },
+    image: {
+        src : '/images/access/access01.png',
+        alt : 'お店の写真',
+    },
 }
 
 export default shopData;

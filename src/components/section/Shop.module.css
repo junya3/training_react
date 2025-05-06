@@ -1,0 +1,14 @@
+.section {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  align-items: center;
+  gap:var(--gap-48px);
+
+  color: var(--text-color-300);
+  font-size: var(--font-sm);
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
