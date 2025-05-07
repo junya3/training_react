@@ -19,4 +19,12 @@
     font-weight: 400;
     color: var(--text-color-300);
   }
+  @media screen and (max-width:480px) {
+    h1 {
+      font-size: var(--font-lg);
+    }
+    p {
+      font-size: var(--font-xs);
+    }
+}
 }

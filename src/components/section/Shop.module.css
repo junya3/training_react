@@ -11,4 +11,15 @@
     width: 100%;
     height: auto;
   }
+  @media screen and (max-width:960px) {
+    grid-template-columns: repeat(1,1fr);
+    gap: var(--gap-24px);
+    img {
+      order:1;
+      height:auto;
+    }
+    div{
+      order:2;
+    }
+  }
 }
