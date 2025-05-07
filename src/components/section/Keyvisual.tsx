@@ -8,7 +8,7 @@ const Keyvisual = () => {
       <Image src={KeyPhoto} alt="keyvisual" width={1440} height={1030} />
       <div className="k_inner">
         <hgroup>
-          <h1>にこりと笑顔になる、やさしいパンを。</h1>
+          <h1>にこりと笑顔になる、<br/>やさしいパンを。</h1>
           <p>素材とまごころで、毎日に小さなごほうびを。</p>
         </hgroup>
         <div className="btn-flex">
