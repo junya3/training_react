@@ -1,6 +1,5 @@
 import CenterTitle from "../parts/CenterTitle";
 import styles from "./Gallery.module.css";
-import Image from "next/image";
 
 const galleryImages = [
   "/images/cafe/gallery/gallery01.png",
