@@ -29,7 +29,7 @@ const Gallery = () => {
       <ul className={styles.grid}>
         {
           galleryImages.map((src, index) => (
-            <li key={index}><Image src={src} alt={`Gallery image ${index + 1}`} width={350}/></li>
+            <li key={index}><img src={src} alt={`Gallery image ${index + 1}`} width={350}/></li>
           ))
         }
       </ul>

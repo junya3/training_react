@@ -1,3 +1,4 @@
+import Button from "../commons/Button";
 import CenterTitle from "../parts/CenterTitle";
 import FormInput from "../parts/FormInput";
 import styles from "./ContactSec.module.css";
@@ -8,7 +9,7 @@ const subTitle = "ご質問やご予約はこちらから";
 const ContactSec = () => {
   return (
     <>
-      <section>
+      <section id="contact">
         <CenterTitle
           title={title}
           subTitle={subTitle}
@@ -20,6 +21,7 @@ const ContactSec = () => {
           </div>
           <FormInput htmlFor="subject" label="件名" type="text" require/>
           <FormInput htmlFor="content" label="お問い合わせ内容" type="textarea" rows={5} require/>
+          <Button href="/" max center>送信する</Button>
         </div>
       </section>
     </>
