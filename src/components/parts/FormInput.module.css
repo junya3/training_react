@@ -1,0 +1,31 @@
+.col {
+  width: 100%;
+  margin-bottom: var(--gap-24px);
+  
+  label,input,textarea {
+    width:100%;
+    display: block;
+  }
+
+  label {
+    font-size: var(--font-xs);
+    color: var(--text-color-300);
+    margin-bottom: 4px;
+  }
+  input,
+  textarea {
+    font-size: var(--font-sm);
+    font-weight: 400;
+    padding:var(--gap-8px);
+    line-height: 1.5;
+    border:1px solid;
+    border-color:var(--text-color-300);
+    border-radius: var(--r-sm);
+    background: var(--bg-color-white);
+    &::placeholder{
+      font-size: var(--font-sm);
+      font-weight: 400;
+      color: color-mix(in srgb, var(--text-color-300) 50%, #0000);
+    }
+  }
+}

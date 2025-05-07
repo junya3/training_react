@@ -40,6 +40,21 @@
   box-sizing: border-box;
 }
 
+input,textarea {
+	margin: 0;
+	padding: 0;
+	background: none;
+	border: none;
+	border-radius: 0;
+	outline: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+textarea {
+  resize: vertical;
+}
+
 body {
   margin: 0;
   padding: 0;
