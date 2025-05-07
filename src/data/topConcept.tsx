@@ -10,7 +10,7 @@ const data = {
         btnText : "もっと詳しく"
       },
     image : {
-        src : "images/topPage/top01.png",
+        src : "./images/topPage/top01.png",
         alt : "焼き立てのパンの写真が写っています。"
     }
 }
