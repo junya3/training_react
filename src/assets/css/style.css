@@ -142,7 +142,7 @@ a {
     }
   }
   @media screen and (max-width:480px) {
-    height:90vh;
+    height:80vh;
     .k_inner {
       padding:0 2rem;
 
