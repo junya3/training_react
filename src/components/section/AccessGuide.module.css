@@ -1,0 +1,6 @@
+.section {
+  width:100%;
+  background:var(--bg-color-300);
+  box-shadow: 0 0 0 100vmax var(--bg-color-300);
+  clip-path: inset(0 -100vmax);
+}

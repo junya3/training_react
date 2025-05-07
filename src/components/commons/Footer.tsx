@@ -40,8 +40,12 @@ const Footer = () => {
                     <div className={styles.access}>
                         <p className={styles.title}>アクセス</p>
                         <address>
-                            <p>{access.address}</p>
-                            <p>{access.direction}</p>
+                            {
+                                access.address.map((item, index) => (
+                                    <div key={index}>{item}</div>
+                                ))
+                            }
+                            {access.direction}
                         </address>
                     </div>
                 </div>

@@ -1,0 +1,9 @@
+.h3{
+  font-size: var(--font-md);
+  font-weight: 500;
+  color: var(--text-color-200);
+  margin-bottom: var(--gap-8px);
+}
+.col {
+  margin-bottom: var(--gap-16px);
+}

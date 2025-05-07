@@ -1,0 +1,12 @@
+.formWrap{
+  width: min(100%,600px);
+  margin-inline:auto;
+  padding:var(--gap-24px);
+  background: var(--bg-color-300);
+  border-radius: var(--r-md);
+}
+.colGroup {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: var(--gap-16px);
+}
