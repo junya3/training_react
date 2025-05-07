@@ -12,4 +12,8 @@
     margin-bottom: var(--gap-16px);
     border-radius: var(--r-sm);
   }
+
+  @media screen and (max-width:960px) {
+    column-count: 2;
+  }
 }

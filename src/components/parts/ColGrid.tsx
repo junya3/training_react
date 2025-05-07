@@ -13,12 +13,14 @@ const Grid3 = ({ items, center }: { items: Item[], center?:boolean }) => {
   const Mode = center ? `${styles.grid} ${styles.center}` : styles.grid;
   const span = items[1].icon ? 4 : 3;
   return (
-    <ul 
-      className={Mode} 
-      style={{ 
-        gridTemplateColumns: `repeat(${colCount}, 1fr)`,
-      }}
-      >
+    <ul
+      className={Mode}
+      style={
+        {
+          "--colCount": `${colCount}`,
+        } as React.CSSProperties
+      }
+    >
       {items.map((item, index) => (
         <li
           key={index}
