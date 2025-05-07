@@ -19,7 +19,7 @@ const shopData = {
         direction: "表参道駅 A2出口から徒歩5分",
     },
     image: {
-        src : '/images/access/access01.png',
+        src : 'images/access/access01.png',
         alt : 'お店の写真',
     },
 }
