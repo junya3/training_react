@@ -3,4 +3,8 @@
     margin-inline:auto;
     display: grid;
     gap:var(--gap-24px);
+
+    @media screen and (max-width:480px) {
+        width: calc(100% - 2rem);
+    }
 }
