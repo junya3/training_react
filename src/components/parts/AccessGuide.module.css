@@ -27,21 +27,7 @@
       }
     }
   }
+  @media screen and (max-width: 480px) {
+    grid-template-columns: repeat(1,1fr);
+  }
 }
-/* li {
-  background: var(--bg-color-white);
-  border:1px solid;
-  border-color: var(--text-color-300);
-  border-radius: var(--r-md);
-  padding: var(--gap-24px);
-  ul {
-    display: grid;
-    gap: var(--gap-8px);
-  }
-  li{
-    list-style: disc;
-    margin-left: var(--gap-24px);
-    font-size: var(--font-sm);
-    color: var(--text-color-300);
-  }
-} */
