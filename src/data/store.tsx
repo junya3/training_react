@@ -9,7 +9,7 @@ const store = {
     ],
     },
   image : {
-      src : "/images/aboutPage/about01.png",
+      src : "images/aboutPage/about01.png",
       alt : "NICORIの店頭を撮った写真",
   }
 

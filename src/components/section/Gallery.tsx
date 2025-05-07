@@ -3,16 +3,16 @@ import styles from "./Gallery.module.css";
 import Image from "next/image";
 
 const galleryImages = [
-  "/images/cafe/gallery/gallery01.png",
-  "/images/cafe/gallery/gallery03.png",
-  "/images/cafe/gallery/gallery02.png",
-  "/images/cafe/gallery/gallery04.png",
-  "/images/cafe/gallery/gallery05.png",
-  "/images/cafe/gallery/gallery06.png",
-  "/images/cafe/gallery/gallery07.png",
-  "/images/cafe/gallery/gallery08.png",
-  "/images/cafe/gallery/gallery09.png",
-  "/images/cafe/gallery/gallery10.png",
+  "images/cafe/gallery/gallery01.png",
+  "images/cafe/gallery/gallery03.png",
+  "images/cafe/gallery/gallery02.png",
+  "images/cafe/gallery/gallery04.png",
+  "images/cafe/gallery/gallery05.png",
+  "images/cafe/gallery/gallery06.png",
+  "images/cafe/gallery/gallery07.png",
+  "images/cafe/gallery/gallery08.png",
+  "images/cafe/gallery/gallery09.png",
+  "images/cafe/gallery/gallery10.png",
 ];
 
 const title = "カフェギャラリー";
