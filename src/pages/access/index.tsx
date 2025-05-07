@@ -19,7 +19,7 @@ export default function Home() {
             />
             <div className="container">
               <Shop/>
-              <AccessGuide/>
+              <AccessGuide/> 
             </div>
         </Layout>
     </>
