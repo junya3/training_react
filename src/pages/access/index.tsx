@@ -11,7 +11,7 @@ const pageSubTitle = "お気軽にお越しください";
 export default function Home() {
   return (
     <>
-        <Layout>
+        <Layout pageTitle="ACCESS">
             <PageTitle 
               pageTitle={pageTitle} 
               pageSubTitle={pageSubTitle}

@@ -13,7 +13,7 @@ const pageSubTitle = "パンとコーヒーで、心がほどける時間を。"
 export default function Home() {
   return (
     <>
-        <Layout>
+        <Layout pageTitle="CAFESPACE">
             <PageTitle 
               pageTitle={pageTitle} 
               pageSubTitle={pageSubTitle}

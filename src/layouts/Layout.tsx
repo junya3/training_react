@@ -1,5 +1,7 @@
 import Header from "@components/commons/Header";
 import Footer from "@components/commons/Footer";
+
+import Head from "next/head";
 // フォントの読み取り
 import { M_PLUS_1 } from "next/font/google";
 
@@ -12,9 +14,12 @@ const mPlus1 = M_PLUS_1({
 
 const title = "Bakery NIKORI";
 
-const Layout = ({children}: {children: React.ReactNode}) => {
+const Layout = ({children, pageTitle}: {children: React.ReactNode, pageTitle:string}) => {
     return (
         <>
+            <Head>
+                <title>{title} | {pageTitle}</title>
+            </Head>
             <body className={mPlus1.className}>
                 <Header title={title}/>
                 <main>

@@ -12,7 +12,7 @@ const pageSubTitle = "BAKERY NICORIのパン";
 export default function Home() {
   return (
     <>
-        <Layout>
+        <Layout pageTitle="MENU">
             <PageTitle 
               pageTitle={pageTitle} 
               pageSubTitle={pageSubTitle}

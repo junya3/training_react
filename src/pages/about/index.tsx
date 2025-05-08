@@ -13,7 +13,7 @@ const pageSubTitle = "素材とまごころで、毎日に小さなごほうび�
 export default function Home() {
   return (
     <>
-        <Layout>
+        <Layout pageTitle="ABOUT US">
             <PageTitle 
               pageTitle={pageTitle} 
               pageSubTitle={pageSubTitle}

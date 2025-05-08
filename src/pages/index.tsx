@@ -7,12 +7,12 @@ import BreadSec from "@/components/section/TopBread";
 import TopCafe from "@/components/section/TopCafe";
 import News from "@/components/section/News";
 
-
+const pageTitle = "TOP";
 
 export default function Home() {
   return (
     <>
-        <Layout>
+        <Layout pageTitle={pageTitle}>
             <Keyvisual/>
             <div className="container">
               <Concept/>
