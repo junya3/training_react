@@ -1,6 +1,4 @@
 import Layout from "@/layouts/Layout";
-import "@assets/css/reset.css";
-import "@assets/css/style.css";
 
 import PageTitle from "@/components/commons/PageTitle";
 import Story from "@components/section/Story";
