@@ -1,6 +1,10 @@
+# カスタム404ページ
+ErrorDocument 404 /404.html
+
 <IfModule mod_rewrite.c>
     RewriteEngine On
-    # 拡張子なしでアクセスされた場合、自動で .html を補完
+
+    # ディレクトリでもファイルでもない → .html を補完
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^(.*)$ $1.html [L]
