@@ -22,5 +22,9 @@
     a{
       width:auto;
     }
+
+    @media screen and (max-width:480px){
+      grid-template-columns: repeat(2,1fr);
+    }
   }
 }

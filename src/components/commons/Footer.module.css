@@ -45,4 +45,11 @@
         padding-block:var(--gap-24px);
         border-top: 1px solid var(--text-color-200);
     }
+
+    @media screen and (max-width:480px) {
+       .FooterInner{
+        grid-template-columns: repeat(1,1fr);
+       } 
+        
+      }
 }

@@ -141,4 +141,21 @@ a {
       top: 50%;
     }
   }
+  @media screen and (max-width:480px) {
+    height:80vh;
+    .k_inner {
+      padding:0 2rem;
+
+      h1 {
+        font-size: var(--font-lg);
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width:480px) {
+  .container {
+    width: calc(100% - 3rem);
+  }
 }
