@@ -48,8 +48,12 @@
 
     @media screen and (max-width:480px) {
        .FooterInner{
-        grid-template-columns: repeat(1,1fr);
+            width:calc(100% - 3rem);
+            grid-template-columns: repeat(1,1fr);
        } 
+       small {
+        font-size:var(--font-xs);
+       }
         
       }
 }
