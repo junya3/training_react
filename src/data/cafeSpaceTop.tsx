@@ -8,7 +8,7 @@ const data = {
     ],
   },
   image: {
-    src: "images/cafe/cafe01.png",
+    src: "../images/cafe/cafe01.png",
     alt: "お店で飲めるカフェラテとケーキが写っています。"
   }
 }
